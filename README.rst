@@ -1,5 +1,5 @@
 ================
-sklearn-crfsuite
+updated-sklearn-crfsuite
 ================
 
 .. image:: https://img.shields.io/pypi/v/sklearn-crfsuite.svg
@@ -17,6 +17,12 @@ sklearn-crfsuite
 .. image:: https://readthedocs.org/projects/sklearn-crfsuite/badge/?version=latest
    :target: https://sklearn-crfsuite.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation
+
+The main repository `does not seem to be maintained anymore <https://github.com/TeamHG-Memex/sklearn-crfsuite/pull/67#issuecomment-1123264765>`_. 
+This repository will accept any incoming pull requests that fix issues in the existing repository.
+To start using this updated version of the main package, you can use the following command:
+
+``pip install git+https://github.com/MeMartijn/updated-sklearn-crfsuite.git#egg=sklearn_crfsuite``
 
 sklearn-crfsuite is a thin CRFsuite_ (python-crfsuite_) wrapper which provides
 interface simlar to scikit-learn_. ``sklearn_crfsuite.CRF`` is a scikit-learn
